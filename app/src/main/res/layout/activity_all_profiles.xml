@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="wrap_content"
+    tools:context="com.priyank.passport_inc.AllProfilesActivity">
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/addButton"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        app:civ_border_color="#EEEEEE"
+        app:civ_border_width="2dp"
+        app:civ_shadow="true"
+        app:civ_shadow_color="#D2691E"
+        app:civ_shadow_radius="5" />
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        android:alpha=".08"
+        app:srcCompat="@drawable/car" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/addButton">
+        <ListView
+            android:id="@+id/profilesListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="0dp"
+            android:dividerHeight="3dip"
+            android:layout_marginTop="10dp" />
+    </RelativeLayout>
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/showMenu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="bottom"
+        android:layout_margin="10dp">
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/orderMale"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:fab_label="Male"
+
+            />
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/orderFemale"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:fab_label="Female"
+
+            />
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/aAge"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:fab_label="Increasing Order by Age"
+
+            />
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/dAge"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:fab_label="Decreasing Order by Age"
+
+            />
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/aName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:fab_label="Increasing Order by Name"
+
+            />
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/dName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:fab_label="Decreasing Order by Name"
+
+            />
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/floatingnormal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:fab_label="Default" />
+    </com.github.clans.fab.FloatingActionMenu>
+</RelativeLayout>
