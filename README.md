@@ -1,9 +1,10 @@
 # Passport_Inc_
 ![passport](https://user-images.githubusercontent.com/17169987/29760566-3cdd945e-8b92-11e7-922e-3d94d0a85f3c.png)
 
-Android Mobile application efficient in creating amazing users' profiles. User can __create__ a well looking profile, can __sort different profiles__ in the way they want to and can __update hobbies__ and __background color__ and can __delete__ the profile. They need to provide __profile image, age, hobbies, name, and they all set to rock !!!__
-- Male Profiles are usually Green(usually)
-- Girls are in blue(usually) 
+Android Mobile application efficient in creating amazing users' profiles. The user can __create__ a well-looking profile, can __sort different profiles__ in the way they want to, can __update hobbies__ , __background color__, and can __delete__ the profile. They need to provide __profile image, age, hobbies, name, and they all set to rock !!!__
+
+- Male Profiles are usually Green
+- Girls are in usually blue
 
 User always has the option to change from the Profile View.
 The app UI is designed via Material Design Guidelines and dependencies libraries such as:
@@ -56,6 +57,12 @@ __Profile creation Page__
 - **Firebase**
 - **XML**
 
+### Firebase API 
+
+[![N|Solid](http://laptrinhx.com/imgs/925e6dc9-ef3d-4fce-8a5b-6e95c65dd8de.png)](https://firebase.google.com/docs/reference/android/packages)
+
+Firebase provides a real time Google Cloud storage and serving as database and storage for the application.
+
 ## Code Samples:
 
 **Reference to Firebase Database**
@@ -97,11 +104,7 @@ try = {
 3. Commit your changes: `git commit -am 'Add some feature'`
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request :D
-### Firebase API 
 
-[![N|Solid](http://laptrinhx.com/imgs/925e6dc9-ef3d-4fce-8a5b-6e95c65dd8de.png)](https://firebase.google.com/docs/reference/android/packages)
-
-Firebase database is a real time Google Cloud storage and highly reponsive.
 
 # Author
 __Priyank Verma__
