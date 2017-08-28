@@ -87,7 +87,7 @@ public class CreateProfileActivity extends AppCompatActivity {
                         link = taskSnapshot.getDownloadUrl();
                         save.setEnabled(true);
                         save.setAlpha((float) 1.0);
-                        Log.d("Link:", link.toString());
+                        //Log.d("Link:", link.toString());
                     }
                 });
             }
@@ -116,7 +116,7 @@ public class CreateProfileActivity extends AppCompatActivity {
                 .addOnFailureListener(this, new OnFailureListener() {
                     @Override
                     public void onFailure(@NonNull Exception exception) {
-                        Log.e("tag", "signInAnonymously:FAILURE", exception);
+                      //  Log.e("tag", "signInAnonymously:FAILURE", exception);
                     }
                 });
     }
@@ -183,7 +183,7 @@ public class CreateProfileActivity extends AppCompatActivity {
             @Override
             public void onCheckedChanged(RadioGroup group, @IdRes int checkedId) {
                 rb = (RadioButton) findViewById(checkedId);
-                Log.d("checkedId", rb.getText().toString());
+             //   Log.d("checkedId", rb.getText().toString());
                 gender = rb.getText().toString();
                 if (gender.equals("Male")) {
                     profileColor = "BLUE";
@@ -237,7 +237,7 @@ public class CreateProfileActivity extends AppCompatActivity {
         save.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (hobbiesList.size() > 0 && firstName.getText().toString() != "" && firstName.getText().toString() != "" && gender != "")
+                if (hobbiesList.size() > 0 && firstName.getText().toString() != "" && firstName.getText().toString() != "" && gender !=null)
                 {
                         textAge=age.getText().toString();
                         profile = new Profile();
@@ -253,7 +253,6 @@ public class CreateProfileActivity extends AppCompatActivity {
                         profile.age = userAge;
                         profile.imageUrl = profileUrl;
                         profile.gender = gender;
-                        Log.d("color", profileColor);
                         profile.color = profileColor;
                     try
                     {
