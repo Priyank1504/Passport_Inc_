@@ -4,7 +4,7 @@
 Android Mobile application efficient in creating amazing users' profiles. The user can __create__ a well-looking profile, can __sort different profiles__ in the way they want to, can __update hobbies__ , __background color__, and can __delete__ the profile. They need to provide __profile image, age, hobbies, name, and they all set to rock !!!__
 
 - Male Profiles are usually Green
-- Girls are in usually blue
+- Female are in usually blue
 
 User always has the option to change from the Profile View.
 The app UI is designed via Material Design Guidelines and dependencies libraries such as:
